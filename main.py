@@ -10,7 +10,7 @@ acces_token = ""
 
 
 def schedule_call(id_value, name_value, descrip):
-  url = "https://5ff83dac-9048-4450-9e4e-df3d07d305b5-00-3uff3e0nlog7x.pike.replit.dev/items/"
+  url = "https://anagram-call-schedule.onrender.com/items/"
 
   payload = json.dumps({
       "id": id_value,
